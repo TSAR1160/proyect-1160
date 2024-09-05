@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSAR - Página Personal</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00FF00;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            color: #FF00FF;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #00FFFF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        section {
+            margin: 20px;
+        }
+        section h2 {
+            border-bottom: 2px solid #FF00FF;
+            padding-bottom: 10px;
+            color: #FF00FF;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            color: #00FF00;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TSAR</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy TSAR, y me encanta explorar nuevas tecnologías y desarrollar proyectos innovadores.</p>
+    </section>
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <p>Aquí se mostrarán mis proyectos más recientes. ¡Pronto habrá más información!</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>En esta sección encontrarás mis pensamientos y reflexiones sobre diversos temas. ¡No te lo pierdas!</p>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:tsar@example.com" style="color: #00FFFF;">tsar@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 TSAR. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
